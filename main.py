@@ -72,7 +72,7 @@ y1 = 400
 # hello worlg
 x2 = 500
 y2 = 200
-#prod
+#prod1
 Enemies = sprite.Group()
 for en in range(0, 7):
     enemy = Enemy('traj.png',
