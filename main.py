@@ -69,9 +69,9 @@ speed = 4
 speede = 1
 x1 = 200
 y1 = 400
+# hello worlg
 x2 = 500
 y2 = 200
-#Группы
 Enemies = sprite.Group()
 for en in range(0, 7):
     enemy = Enemy('traj.png',
