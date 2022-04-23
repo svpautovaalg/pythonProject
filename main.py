@@ -1,4 +1,5 @@
 from pygame import *
+from turtle import *
 import random
 import sys
 win = display.set_mode((700, 500))
@@ -75,7 +76,7 @@ y2 = 200
 #prod1
 Enemies = sprite.Group()
 for en in range(0, 7):
-    enemy = Enemy('traj.png',
+    enemy = Enemy('traj1.png',
                     random.randint(1, win.get_width() - 65),
                     -1 * random.randrange(1, 50),
                     random.randint(1, 3))
